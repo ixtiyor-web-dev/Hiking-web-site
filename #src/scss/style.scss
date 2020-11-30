@@ -1,9 +1,70 @@
-@import "_miksin.scss";
 html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link{
+    text-transform: uppercase;
+}
+.search{
+    color: #68635f;
+    background: none;
+    outline: none;
+    border: none;
+    position: relative;
+    right: 50px;
+}
+.search:focus{
+    outline: none;
+}
+.input-search{
+    width: 185px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #c3bfbc;
+    color: #000;
+    font-weight: 400;
+    font-size: 15px;
+    outline: none;
+    border: none;
+}
+.header-bg{
+    background: url(../img/group1/Group\ 1.png) no-repeat center / cover;
+    height: 100vh;
+    h1{
+        color: #deb37e;
+        font-size: 54px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    h4{
+        color: #54524f;
+        font-weight: 400;
+        font-size: 23px;
+        font-style: italic;
+        text-transform: uppercase;
+    }
+    button{
+        background-color: #fefdfd;
+        text-transform: none;
+        border: none;
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;
+    }
+    a{
+        color: #776c64;
+        text-decoration: none;
+        background: none;
+    }
+    p{
+        color: #54524f;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 15px;
+    }
 }
 
 
