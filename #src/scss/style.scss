@@ -6,7 +6,11 @@ body{
 }
 
 .nav-link{
+    color: #54524f;
     text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #54524f;
 }
 .search{
     color: #68635f;
@@ -31,13 +35,20 @@ body{
     border: none;
 }
 .header-bg{
-    background: url(../img/group1/Group\ 1.png) no-repeat center / cover;
-    height: 100vh;
+    background: url(../img/group1/headerbg.png) no-repeat center ;
+    background-size: cover;
+    padding: 150px;
+    @media (min-width: 320px) and (max-width: 900px) { 
+        padding: 50px;
+     }
     h1{
         color: #deb37e;
         font-size: 54px;
         font-weight: 800;
         text-transform: uppercase;
+        @media(max-width: 767px){
+            font-size: calc(24px + (30+30 *0.7) *((100vw - 320px)/1280));
+        }
     }
     h4{
         color: #54524f;
@@ -45,6 +56,12 @@ body{
         font-size: 23px;
         font-style: italic;
         text-transform: uppercase;
+        @media(max-width: 767px){
+            font-size: calc(14px + (9+9 *0.7) *((100vw - 320px)/1280));
+        }
+        @media (min-width: 320px) and (max-width: 900px) { 
+            margin-top: 0;
+         }
     }
     button{
         background-color: #fefdfd;
@@ -53,6 +70,9 @@ body{
         width: 200px;
         height: 50px;
         border-radius: 30px;
+        @media(max-width: 767px){
+            width: calc(100px + (100+100 *0.7) *((100vw - 320px)/1280));
+        }
     }
     a{
         color: #776c64;
@@ -64,10 +84,103 @@ body{
         font-weight: 700;
         font-style: italic;
         font-size: 15px;
+        @media(max-width: 767px){
+            font-size: calc(10px + (5+5 *0.7) *((100vw - 320px)/1280));
+        }
     }
 }
 
 
+.section-two{
+    h1{
+        color: #e2a355;
+        font-weight: 800;
+        font-size: 45px;
+        text-transform: uppercase;
+        @media(max-width: 767px){
+            font-size: calc(20px + (35+35 *0.7) *((100vw - 320px)/1280));
+        }
+    }
+    p{
+        color: #7f7770;
+        font-weight: 400;
+        font-size: 15px;
+        @media(max-width: 767px){
+            font-size: calc(10px + (5+5 *0.7) *((100vw - 320px)/1280));
+        }
+    }
+}
+.card-bgc{
+    background-color: #7f7770;
+    padding-left: 0;
+    p{
+        color: #fff;
+    }
+}
+
+.section-two{
+    .img1{
+        width: 350px;
+        @media(max-width: 767px){
+            width:100%;
+        }
+        @media (min-width: 768px) and (max-width: 991.98px) { 
+            width: 100%;
+         }
+         @media (min-width: 992px) and (max-width: 1199.98px) { 
+             width: 100%;
+          }
+          @media (min-width: 1200px) { 
+              width: 100%;
+           }
+    }
+    .img2{
+        width: 348px;
+        @media(max-width: 767px){
+            width:100%;
+        }
+        @media (min-width: 768px) and (max-width: 991.98px) { 
+            width: 100%;
+         }
+         @media (min-width: 992px) and (max-width: 1199.98px) { 
+            width: 100%;
+         }
+         @media (min-width: 1200px) { 
+            width: 100%;
+         }
+    }
+    button{
+        background-color: #7f7770;
+        border: none;
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;
+    }
+    a{
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: none;
+    }
+}
+.lead{
+    margin-top: 200px;
+}
+.img3{
+    width: 674px;
+}
+.img4{
+    width: 659px;
+}
+.section-two-text{
+    background-color: #7f7770;
+}
+.section-two-text2{
+    background-color: #deb37e;
+}
+.img-bg{
+    background-color: #deb37e;
+}
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {  }
 
