@@ -37,7 +37,7 @@ body{
 .header-bg{
     background: url(../img/group1/headerbg.png) no-repeat center ;
     background-size: cover;
-    padding: 150px;
+    padding: 190px;
     @media (min-width: 320px) and (max-width: 900px) { 
         padding: 50px;
      }
@@ -124,6 +124,9 @@ body{
         @media(max-width: 767px){
             width:100%;
         }
+        @media (min-width: 320px) and (max-width: 600px) { 
+            width: 100%;
+         }
         @media (min-width: 768px) and (max-width: 991.98px) { 
             width: 100%;
          }
@@ -139,6 +142,9 @@ body{
         @media(max-width: 767px){
             width:100%;
         }
+        @media (min-width: 320px) and (max-width: 600px) { 
+            width: 100%;
+         }
         @media (min-width: 768px) and (max-width: 991.98px) { 
             width: 100%;
          }
@@ -163,14 +169,115 @@ body{
         background: none;
     }
 }
-.lead{
-    margin-top: 200px;
+.section-three{
+    button{
+        background-color: #e2a355;
+        text-transform: none;
+        border: none;
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;
+        // @media(max-width: 767px){
+        //     width: calc(100px + (100+100 *0.7) *((100vw - 320px)/1280));
+        // }
+        &:hover{
+            background-color: #e2a355;
+                color: #776c64;
+                transition: all 0.5s;
+ 
+        }
+    }
+    a{
+        color: #fff;
+        text-decoration: none;
+        background: none;
+        text-transform: uppercase;
+        &:hover{
+            color: #776c64;
+            transition: all 0.5s;
+        }
+    }
+    h2{
+        margin-top: 250px;
+        font-size: 53px;
+        color: #fff;
+        @media(max-width: 767px){
+            font-size: calc(25px + (28+28 *0.7) *((100vw - 320px)/1280));
+        }
+        @media (max-width: 575.98px) { 
+            margin-top: 0px;
+         }
+         @media (min-width: 576px) and (max-width: 767.98px) { 
+            margin-top: 50px;
+          }
+          @media (min-width: 768px) and (max-width: 991.98px) { 
+            margin-top: 50px;
+           }
+           @media (min-width: 992px) and (max-width: 1199.98px) { 
+            margin-top: 50px;
+            }
+    }
+    p{
+        color: #ffffff;
+        font-weight: 400;
+        @media(max-width: 767px){
+            font-size: calc(15px + (3+3 *0.7) *((100vw - 320px)/1280));
+        }
+    }
 }
 .img3{
     width: 674px;
+    @media  (max-width: 1280px) { 
+        width: 626px;
+      }
+      @media  (max-width: 1024px) { 
+        width: 509px;
+      }
+      @media  (max-width: 800px) { 
+        width: 395px;
+      }
+      @media  (max-width: 768px) { 
+        width: 383px;
+      }
+    @media (max-width: 575.98px) { 
+        width: 100%;
+     }
+     @media (min-width: 576px) and (max-width: 767.98px) { 
+         width: 100%;
+      }
+    //    @media (min-width: 992px) and (max-width: 1199.98px) { 
+    //        width: 100%;
+    //     }
+        @media  (max-width: 1440px) { 
+           width: 674px;
+         }  
 }
 .img4{
     width: 659px;
+    @media  (max-width: 1440px) { 
+        width: 659px;
+      } 
+      @media  (max-width: 1280px) { 
+        width: 615px;
+      } 
+      @media  (max-width: 1024px) { 
+        width: 495px;
+      }
+      @media  (max-width: 800px) { 
+        width: 386px;
+      }
+      @media  (max-width: 768px) { 
+        width: 365px;
+      }
+    @media (max-width: 575.98px) { 
+        width: 100%;
+     }
+     @media (min-width: 576px) and (max-width: 767.98px) { 
+         width: 100%;
+      }
+    //    @media (min-width: 992px) and (max-width: 1199.98px) { 
+    //        width: 100%;
+    //     }
 }
 .section-two-text{
     background-color: #7f7770;
@@ -178,9 +285,280 @@ body{
 .section-two-text2{
     background-color: #deb37e;
 }
+
 .img-bg{
     background-color: #deb37e;
+    @media (max-width: 575.98px) { 
+        background: none;
+     }
+     @media (min-width: 576px) and (max-width: 767.98px) { 
+        background: none;
+      }
 }
+
+.section-four-bg{
+    background: url(../img/group5/section-four-bg.png) no-repeat center /cover;
+    padding: 300px;
+
+    @media (max-width: 575.98px) { 
+        padding: 40px;
+     }
+     @media (max-width: 320px) { 
+        padding: 0px;
+     }
+     @media (max-width: 360px) { 
+        padding: 30px;
+     }
+     @media (min-width: 576px) and (max-width: 767.98px) { 
+         padding: 90px;
+      }
+      @media (min-width: 768px) and (max-width: 991.98px) { 
+          padding: 100px;
+       }
+       @media (min-width: 992px) and (max-width: 1199.98px) { 
+           padding: 250px;
+        }
+    h2{
+        color: #ffffff;
+        font-size: 45px;
+        font-weight: 600;
+        @media(max-width: 767px){
+            font-size: calc(20px + (25+25 *0.7) *((100vw - 320px)/1280));
+        }
+    }
+    p{
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 18px;
+        @media(max-width: 767px){
+            font-size: calc(14px + (4+4 *0.7) *((100vw - 320px)/1280));
+        }
+    }
+}
+
+.section-five{
+    img{
+        width: 100%;
+    }
+}
+
+.section-six{
+    margin-bottom: 100px;
+    h2{
+        color: #deb37e;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    P{
+        color: #333d42;
+    }
+    h3{
+        color: #3f3f3f;
+        margin-top: 100px;
+        font-size: 35px;
+    }
+    h4{
+        color: #3f3f3f;
+        font-size: 25px;
+        @media(max-width: 767px){
+            font-size: calc(15px + (10+10 *0.7) *((100vw - 320px)/1280));
+        }
+    }
+}
+.section-six-bg2{
+    background: url(../img/group7/Design.png) no-repeat right;
+    background-size: contain;
+    p{
+        color: #3f3f3f;
+        font-weight: 600;
+        font-size: 25px;
+        @media(max-width: 767px){
+            font-size: calc(15px + (10+10 *0.7) *((100vw - 320px)/1280));
+        }
+    }
+}
+
+.section-seven{
+    margin-top: 250px;
+    background: url(../img/group8/Group8.png) no-repeat center / cover;
+    padding: 250px;
+    // height: 100vh;
+    
+    @media (max-width: 320px) { 
+        padding-bottom: 150px;
+        padding-top: 150px;
+     }
+     @media (max-width: 360px) { 
+        padding-bottom: 150px;
+        padding-top: 150px;
+     }
+     @media (max-width: 384px) { 
+        padding-bottom: 150px;
+        padding-top: 150px;
+     }
+     @media (max-width: 412px) { 
+        padding-bottom: 150px;
+        padding-top: 150px;
+     }
+     @media (max-width: 480px) { 
+        padding-bottom: 150px;
+        padding-top: 150px;
+     }
+     @media (max-width: 540px) { 
+        padding-bottom: 150px;
+        padding-top: 150px;
+     }
+
+    @media (max-width: 575.98px) { 
+        padding: 0;
+     }
+     @media (min-width: 576px) and (max-width: 767.98px) { 
+         padding: 30px;
+      }
+      @media (min-width: 768px) and (max-width: 991.98px) { 
+          padding: 130px;
+       }
+       @media (min-width: 992px) and (max-width: 1199.98px) { 
+           padding: 150px;
+       }
+    h1{
+        color: #fff;
+        font-size: 53px;
+        @media(max-width: 767px){
+            font-size: calc(25px + (28+28 *0.7) *((100vw - 320px)/1280));
+        }
+    }
+    p{
+        color: #54524f;
+        font-weight: 400;
+        font-size: 25px;
+        @media(max-width: 767px){
+            font-size: calc(15px + (10+10 *0.7) *((100vw - 320px)/1280));
+        }
+    }
+    input{
+        width: 500px;
+        height: 65px;
+        border-radius: 30px;
+        border: none;
+        outline: none;
+        color: #54524f;
+        @media(max-width: 767px){
+            width: calc(300px + (200+200 *0.7) *((100vw - 320px)/1280));
+     
+        }
+    }
+    button{
+        position: relative;
+        right: 60px;
+        width: 200px;
+        height: 65px;
+        border-radius: 30px;
+        border: none;
+        background-color: #54524f;
+        color: #fff;
+        text-transform: uppercase;
+        &:focus{
+            outline: none;
+        }
+        &:hover{
+            color: #000000;
+            transition: all 0.5s;
+        }
+        @media(max-width: 767px){
+            width: calc(150px + (50+50 *0.7) *((100vw - 320px)/1280));
+        }
+        @media(max-width: 320px){
+            bottom: 65px;
+            right: -75px;
+        }
+        @media(max-width: 360px){
+            bottom: 65px;
+            right: -77px;
+        }
+        @media (max-width: 384px) { 
+            bottom: 65px;
+            right: -79px;
+         }
+         @media (max-width: 412px) { 
+            bottom: 65px;
+            right: -79px;
+         }
+         @media (max-width: 480px) { 
+            bottom: 65px;
+            right: -85px;
+         }
+         @media (max-width: 540px) { 
+            bottom: 0px;
+            right: 90px;
+         }
+         @media (max-width: 600px) { 
+            bottom: 0px;
+            right: 90px;
+         }
+         @media (max-width: 768px) { 
+            bottom: 65px;
+            right: -200px;
+         }
+    }
+}
+
+.link{
+    margin-left: 15px;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #7f7770;
+    @media(max-width: 320px){
+        width: 70px;
+    }
+}
+.linkins{
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #7f7770;
+    @media(max-width: 320px){
+        width: 70px;
+    }
+}
+.footer-bg{
+    background-color: #7f7770;
+    padding: 50px;
+    a{
+        text-decoration: none;
+    }
+    h5 , h3 ,p{
+        color: #fff;
+    }
+    a{
+        font-size: 18px;
+        @media(max-width: 767px){
+            font-size: calc(12px + (6+6 *0.7) *((100vw - 320px)/1280));
+        }
+    }
+}
+.text-muteds{
+    color: #fff;
+    text-decoration: none;
+    &:hover{
+        color:#000;
+        transition: all 0.5s;
+    }
+}
+
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {  }
 
